@@ -1,9 +1,13 @@
 # Domain Deep Research Agent Guide
 
-This guide provides detailed steps to create a Domain Deep Research Agent that leverages Composio, agentic frameworks such as Langgraph and Qwen3 to create a research agent. Ensure you have Python 3.8 or higher installed.
+Este guía proporciona pasos detallados para crear un agente de investigación de dominio profundo que utiliza Composio, agentic frameworks como Langgraph y OpenAI para crear un agente de investigación.
 
-
-## Steps to Run
+## Pasos a seguir para crear el agente:
+1. Crea un entorno virtual de Python.
+2. Instala las dependencias necesarias.
+3. Solicita iniciar sesión en Composio y añadir las integraciones requeridas (Tavily, PerplexityAI, GoogleDocs).
+4. Cuando añadas la integración de Google Docs, Composio te preguntará cómo quieres autenticarte (OAUTH2 o BEARER TOKEN). Debes elegir OAUTH2 y seguir las instrucciones que aparecerán en pantalla para completar la autenticación.
+5. Crea el archivo .env (o copia el de ejemplo) y te pide rellenar las variables necesarias.
 
 ```
 uv venv
