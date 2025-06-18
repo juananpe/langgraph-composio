@@ -31,3 +31,15 @@ Run the agent:
 ```
 python main.py
 ```
+
+## Interactuar con el agente
+El agente te pedirá que introduzcas un tema y un dominio.
+Espera a que genere las preguntas y realice la investigación.
+El informe final se creará en Google Docs.
+
+## Notas:
+- El agente utiliza:
+    - la API de OpenAI para generar las preguntas y realizar la investigación.
+    - la API de Google Docs para crear el informe final.
+    - la API de Tavily para obtener información de la web.
+    - la API de PerplexityAI para obtener información de la web.
